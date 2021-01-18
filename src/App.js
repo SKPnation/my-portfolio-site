@@ -58,7 +58,8 @@ class App extends React.Component {
           
             <Redirect to="/" />
 
-     
+            <Footer/>
+
         </Container>
       </Router>
     );
