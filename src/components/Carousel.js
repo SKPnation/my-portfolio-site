@@ -17,7 +17,7 @@ class Carousel extends React.Component{
                     title: 'Thesel',
                     subTitle: 'A therapeutic tele-counselling platform',
                     imgSrc: thesel,
-                    link: 'https://devgrub.com',
+                    link: 'https://play.google.com/store/apps/details?id=com.skiplab.theselproject&hl=en_IE&gl=US',
                     selected: false
                 },
                 {
@@ -25,7 +25,7 @@ class Carousel extends React.Component{
                     title: 'SLI',
                     subTitle: 'An Intra-organisational communication application',
                     imgSrc: devgrub,
-                    link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
+                    link: 'https://github.com/SKPnation/SLI',
                     selected: false
                 },
                 {
@@ -33,7 +33,7 @@ class Carousel extends React.Component{
                     title: 'Chow',
                     subTitle: 'A food delivery application',
                     imgSrc: chow,
-                    link: 'https://github.com/garrettlove8/evverest',
+                    link: 'https://github.com/SKPnation/CHOW',
                     selected: false
                 },
 
