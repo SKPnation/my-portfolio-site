@@ -5,6 +5,8 @@ import Card from '../components/Card';
 import devgrub from '../assets/images/devgrub.png';
 import chow from '../assets/images/chow.jpg';
 import thesel from '../assets/images/thesel.png';
+import myats from '../assets/images/myats.png';
+
 
 
 class Carousel extends React.Component{
@@ -36,7 +38,14 @@ class Carousel extends React.Component{
                     link: 'https://github.com/SKPnation/CHOW',
                     selected: false
                 },
-
+                {
+                    id: 3,
+                    title: 'MyATS',
+                    subTitle: 'A parent-school communication application',
+                    imgSrc: myats,
+                    link: 'https://play.google.com/store/apps/details?id=com.right.ayomide.myats&hl=en&gl=US',
+                    selected: false
+                }
             ]
         }
     }
