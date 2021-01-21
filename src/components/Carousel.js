@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-
 import Card from '../components/Card';
+
 import devgrub from '../assets/images/devgrub.png';
 import chow from '../assets/images/chow.jpg';
 import thesel from '../assets/images/thesel.png';
