@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 
 import Hero from '../components/Hero';
 import Content from '../components/Content';
+
 //import Axios from 'axios';
 
 class ContactPage extends React.Component{
@@ -90,7 +91,7 @@ class ContactPage extends React.Component{
                         </Form.Group>
 
 
-                        <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
+                        <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled} style={{marginBottom: "100px"}}>
                             Send
                         </Button>
 
@@ -99,6 +100,7 @@ class ContactPage extends React.Component{
                         {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
                     </Form>
                 </Content>
+                
             </div>
         );
     }

@@ -16,7 +16,7 @@ code {
 
 .g-card {
   margin: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 
@@ -30,7 +30,7 @@ code {
 
 .g-card-info {
   margin-top: 10px;
-  min-height: 100px;
+  min-height: 0px;
 }
 
 
@@ -55,6 +55,12 @@ code {
 .err-msg {
   color: #EE6352;
   padding: 10px 15px;
+}
+
+
+.footer {
+  margin-top: 10px;
+  bottom: 0px;
 }
 
 

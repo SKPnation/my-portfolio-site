@@ -2,10 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import './App.css';
-import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+
+import Footer from './components/Footer';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -64,7 +65,7 @@ class App extends React.Component {
           
             <Redirect to="/" />
 
-            <Footer/>
+            <Footer className="footer"/>
 
         </Container>
       </Router>

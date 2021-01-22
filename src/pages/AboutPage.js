@@ -15,10 +15,12 @@ function AboutPage(props) {
 
                 <p>I'm constantly learning new things. currently those things include gaining more experience with Swift, React, Express JS, and Node JS</p>
 
-                <p>My latest project, Thesel, is a therapeutic tele-counselling platform for everyone going through various life challenges and seeking solutions.
+                <p style={{marginBottom: "200px"}}>My latest project, Thesel, is a therapeutic tele-counselling platform for everyone going through various life challenges and seeking solutions.
                  You can check it out <a href="https://play.google.com/store/apps/details?id=com.skiplab.theselproject" target="_blank" rel="noopener noreferrer">here</a>, or on the homepage. 
                 It is built with Java, SQLite & Firebase. However, I will be rebuilding it using Kotlin in the coming months</p>
             </Content>
+
+
         </div>
     );
 
