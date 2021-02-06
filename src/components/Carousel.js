@@ -35,7 +35,7 @@ class Carousel extends React.Component{
                     title: 'Chow',
                     subTitle: 'A food delivery application',
                     imgSrc: chow,
-                    link: 'https://github.com/SKPnation/CHOW',
+                    link: 'https://play.google.com/store/apps/details?id=com.skiplab.androideatit',
                     selected: false
                 },
                 {
